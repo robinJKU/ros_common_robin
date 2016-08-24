@@ -19,11 +19,7 @@ add_service_files(
    execute.srv
  )
  
-add_action_files(
-  FILES
-#   Action1.action
-#   Action2.action
-)
+
 
  generate_messages(
    DEPENDENCIES
