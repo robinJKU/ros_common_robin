@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+    
+  <arg name="driver_ns" />   
+  <node name="$(arg driver_ns)_base_interface" pkg="ros_common_robin_driver" type="robin_base_interface" respawn="false"
+    output="screen" ns="$(arg driver_ns)">
+    <param name="driver_ns" type="string" value="$(arg driver_ns)"/>
+  </node>  
+      
+</launch>
+
+

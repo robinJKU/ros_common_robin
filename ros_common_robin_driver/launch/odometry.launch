@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+	    
+  <!-- load the odometry publisher -->
+  <arg name="driver_ns" />      
+  <rosparam command="load" file="$(find ros_common_robin_driver)/config/odometry.yaml" />
+  <param name="/driver_ns" value="$(arg driver_ns)" type="string" />
+  <node name="$(arg driver_ns)_odometry_publisher_simulation_only" pkg="ros_common_robin_driver" type="robin_odometry_publisher_simulation_only" respawn="false"
+        output="screen" ns="/$(arg driver_ns)/driver">		
+  </node>
+        
+</launch>
