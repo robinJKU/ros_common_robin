@@ -1,0 +1,13 @@
+<map id="mexFunction" name="mexFunction">
+<area shape="rect" id="node2" href="$class_bs.html#ae8d365f98521233cdae4392b082bf2b0" title="Bs::Bs" alt="" coords="195,5,257,32"/>
+<area shape="rect" id="node3" href="$class_bs__coeffs.html#a894b38ca5594b5f551542d2261d3c4dd" title="Bs_coeffs::Bs_coeffs" alt="" coords="154,56,298,83"/>
+<area shape="rect" id="node4" href="$class_bs.html#a032feb294f0120f3067d09b8b135e244" title="Bs::get_values" alt="" coords="173,107,279,133"/>
+<area shape="rect" id="node6" href="$class_bs.html#a7e750ed1add0cacc21aa7baab15a3410" title="Bs::get_par_start" alt="" coords="165,157,287,184"/>
+<area shape="rect" id="node7" href="$class_bs.html#ac91469b878ca028b7604221a05ef751d" title="Bs::get_par_end" alt="" coords="167,208,285,235"/>
+<area shape="rect" id="node8" href="$class_bs.html#a638593a38c6a1cccaf9ffadd67d7c19f" title="Bs::get_ctrl_pts" alt="" coords="169,259,283,285"/>
+<area shape="rect" id="node9" href="$class_bs.html#abbc09d4f3b205ad2aff9b675074adcda" title="Bs::get_coeffs" alt="" coords="173,309,279,336"/>
+<area shape="rect" id="node10" href="$class_bs__coeffs.html#a7a79d06ee60c44e7c77b223fde626662" title="Bs_coeffs::get_degree" alt="" coords="151,360,301,387"/>
+<area shape="rect" id="node11" href="$class_bs__coeffs.html#a4126a4c2e6744d55ea9b4ae77e433237" title="Bs_coeffs::get_knots" alt="" coords="154,411,298,437"/>
+<area shape="rect" id="node12" href="$class_bs__coeffs.html#ae49557877c01414bba362f0928a287f8" title="Bs_coeffs::get_coeff\l_mat_vec" alt="" coords="157,462,295,503"/>
+<area shape="rect" id="node5" href="$class_bs.html#a11f26d4e11ce37db3ebf02a18e71e0b1" title="Bs::get_value" alt="" coords="349,107,449,133"/>
+</map>

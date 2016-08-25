@@ -1,0 +1,5 @@
+<map id="Bs::get_value" name="Bs::get_value">
+<area shape="rect" id="node2" href="$class_bs__coeffs.html#a7a79d06ee60c44e7c77b223fde626662" title="Bs_coeffs::get_degree" alt="" coords="162,5,313,32"/>
+<area shape="rect" id="node3" href="$class_bs__coeffs.html#aeb70f0a76f37c8640bd54e1c2f07b1db" title="Bs_coeffs::get_coeff_mat" alt="" coords="153,56,321,83"/>
+<area shape="rect" id="node4" href="$class_bs__coeffs.html#aa81da1b3e00691abd80ae9ef9e19bd27" title="Bs_coeffs::get_unique\l_interval" alt="" coords="369,49,520,90"/>
+</map>
