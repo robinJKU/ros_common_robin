@@ -111,7 +111,7 @@ int main(int argc, char **argv)
  	
   
   ros::Subscriber base_subscriber = n.subscribe( driver_ns + "/joint_states", 1000, base_callback );
-  ros::Subscriber vel_subscriber = n.subscribe( driver_ns + "/base/cmd_vel", 1000, vel_callback );
+  ros::Subscriber vel_subscriber = n.subscribe( driver_ns + "/base/drives/control/cmd_vel", 1000, vel_callback );
 
   // init publisher and start loop
   odometry_publisher = n.advertise<nav_msgs::Odometry>("/odom", 1000);
