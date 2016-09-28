@@ -33,7 +33,7 @@ int main( int argc, char** argv) {
   ros::init(argc, argv, "base_interface");
   
   ros::NodeHandle n;
-  ros::Subscriber sub = n.subscribe("base/drives/control/cmd_vel", 1, cmd_velCallback);
+  ros::Subscriber sub = n.subscribe("base/cmd_vel", 1, cmd_velCallback);
   
   ros::Publisher pub_x = n.advertise<std_msgs::Float64>("base/x_position_controller/command", 50);
   ros::Publisher pub_y = n.advertise<std_msgs::Float64>("base/y_position_controller/command", 50);
