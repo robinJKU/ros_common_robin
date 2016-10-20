@@ -1,0 +1,10 @@
+<library path="lib/libros_common_robin_velocity_smoother_nodelet">
+  <class name="ros_common_robin_velocity_smoother/VelocitySmootherNodelet"
+         type="ros_common_robin_velocity_smoother::VelocitySmootherNodelet"
+         base_class_type="nodelet::Nodelet">
+    <description>
+      Implementation for the command velocity smoother as a nodelet.
+    </description>
+  </class>
+</library>
+
