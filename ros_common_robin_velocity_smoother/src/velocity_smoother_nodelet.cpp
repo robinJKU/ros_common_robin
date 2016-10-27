@@ -309,16 +309,16 @@ bool VelocitySmoother::init(ros::NodeHandle& nh)
   robot_feedback = static_cast<RobotFeedbackType>(feedback);
 
   // Mandatory parameters
-  if ((nh.getParam("speed_lim_v", speed_lim_vx) == false) ||
-	  (nh.getParam("speed_lim_v", speed_lim_vy) == false) ||
+  if ((nh.getParam("speed_lim_vx", speed_lim_vx) == false) ||
+	  (nh.getParam("speed_lim_vy", speed_lim_vy) == false) ||
       (nh.getParam("speed_lim_w", speed_lim_w) == false))
   {
     ROS_ERROR("Missing velocity limit parameter(s)");
     return false;
   }
 
-  if ((nh.getParam("accel_lim_v", accel_lim_vx) == false) ||
-      (nh.getParam("accel_lim_v", accel_lim_vy) == false) ||
+  if ((nh.getParam("accel_lim_vx", accel_lim_vx) == false) ||
+      (nh.getParam("accel_lim_vy", accel_lim_vy) == false) ||
       (nh.getParam("accel_lim_w", accel_lim_w) == false))
   {
     ROS_ERROR("Missing acceleration limit parameter(s)");
