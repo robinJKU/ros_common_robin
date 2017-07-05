@@ -1,0 +1,7 @@
+<!--
+	clears costmap everytime the robot reaches a sent goal
+-->
+
+<launch>
+	<node pkg="ros_common_robin_clear_costmap" type="clear_costmap" name="clear_costmap"/>
+</launch>
